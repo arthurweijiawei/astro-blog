@@ -80,3 +80,21 @@ h1 {
     display: none;
   }
 }
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container .theme-icon {
+  margin-left: auto;  /* 把 ThemeIcon 挤到最右 */
+}
